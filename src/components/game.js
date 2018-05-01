@@ -63,11 +63,6 @@ export default class Game extends React.Component {
 
         <main role="main">
 
-          <div className="the-numba">
-            <h2>{this.state.magicNumber}</h2>
-            <h3>{this.state.guess}</h3>
-          </div>
-
           <h2>{this.state.feedback}</h2>
 
           <div className="guess-container">

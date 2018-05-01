@@ -43,11 +43,7 @@ export default class Game extends React.Component {
       guesses: [...this.state.guesses, guess]
     });
 
-    // We typically wouldn't touch the DOM directly like this in React
-    // but this is the best way to update the title of the page,
-    // which is good for giving screen-reader users
-    // instant information about the app.
-    document.title = feedback ? `${feedback} | Hot or Cold` : 'Hot or Cold';
+    // document.title = feedback ? `${feedback} | Hot or Cold` : 'Hot or Cold';
   }
 
 

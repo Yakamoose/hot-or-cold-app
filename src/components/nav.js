@@ -7,7 +7,7 @@ export default function Nav(props) {
     <nav>
       <ul className="nav-bar">
         <li className="new-game">
-          <a className="restart" href="#" onClick={() => props.onRestartGame()}>
+          <a className="restart" href="./index.html" onClick={() => props.onRestartGame()}>
             + New Game
           </a>
         </li>
